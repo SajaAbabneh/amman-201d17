@@ -108,6 +108,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiplyArray(multArr) { //eslint-disable-line
 let multiplication= multiply(multArr[0],multArr[1])[0];
 let result2=multiply(multiplication,multArr[2])[0];
+console.log(result2);
 let statement= 'The numbers '+ multArr[0]+','+multArr[1]+','+multArr[2]+' have a product of '+result2+'.';
 return[result2,statement];
 }
